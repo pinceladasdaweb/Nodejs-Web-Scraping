@@ -1,0 +1,33 @@
+{
+    "name": "web-scraper",
+    "description": "Nodejs Web Scraping",
+    "main": "app.js",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Pedro Rogério",
+    "homepage": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "express": "~4.8.8",
+        "request": "~2.42.0",
+        "cheerio": "~0.17.0"
+    },
+    "devDependencies": {
+        "nodemon": "*"
+    },
+    "keywords": [
+        "scraper",
+        "scraping"
+    ],
+    "repository": "https://github.com/pinceladasdaweb/Nodejs-Web-Scraping",
+    "bugs": {
+        "url": "https://github.com/pinceladasdaweb/Nodejs-Web-Scraping/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }]
+}
