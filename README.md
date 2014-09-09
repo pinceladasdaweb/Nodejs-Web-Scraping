@@ -8,6 +8,16 @@ Access [the url](http://node-web-scraping.herokuapp.com/scraper) and view in act
 
 ## Quick setup
 
-```javascript
+```bash
+$ git clone https://github.com/pinceladasdaweb/Nodejs-Web-Scraping.git
+$ cd Nodejs-Web-Scraping
+$ npm install
+```
 
+## Start the server
+
+```bash
+$ npm start
+
+Your server goes on localhost:3002
 ```
