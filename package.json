@@ -2,7 +2,7 @@
     "name": "web-scraper",
     "description": "Nodejs Web Scraping",
     "main": "app.js",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "private": true,
     "author": "Pedro Rogério",
     "homepage": "",
@@ -11,8 +11,8 @@
         "start": "nodemon app.js"
     },
     "dependencies": {
-        "express": "~4.10.4",
-        "request": "~2.48.0",
+        "express": "~4.10.5",
+        "request": "~2.51.0",
         "cheerio": "~0.18.0"
     },
     "devDependencies": {
