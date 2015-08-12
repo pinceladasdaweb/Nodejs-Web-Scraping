@@ -9,7 +9,7 @@ var express = require('express'),
 
 route.get('/scraper', function (req, res) {
     request("http://www.echojs.com/", function (err, resp, body) {
-        if (!err && res.statusCode === 200) {
+        if (!err && resp.statusCode === 200) {
             var $        = cheerio.load(body),
                 pageURLs = [];
 
